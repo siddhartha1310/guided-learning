@@ -1,0 +1,19 @@
+# Ignore development rules and checklists
+GEMINI.md
+SKILLS/
+reflections_june_2026.md
+docs/
+compass-extension.skill
+guided-learning.skill
+
+# Ignore Node.js package manager artifacts
+node_modules/
+package-lock.json
+
+# Ignore user vault content (only track the templates and .gitkeep files)
+vault/logs/*
+vault/wiki/*
+vault/raw/*
+!vault/logs/.gitkeep
+!vault/wiki/.gitkeep
+!vault/raw/.gitkeep

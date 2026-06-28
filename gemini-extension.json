@@ -1,0 +1,19 @@
+{
+  "name": "guided-learning",
+  "version": "0.1.0",
+  "description": "Guided learning system for knowledge retention and roadmap evolution.",
+  "author": "AI Assistant",
+  "type": "skill",
+  "entry": "SKILL.md",
+  "scripts": {
+    "engine": "scripts/engine.cjs"
+  },
+  "commands": [
+    "/start-goal",
+    "/framework",
+    "/next-question",
+    "/process",
+    "/roadmap",
+    "/review-memory"
+  ]
+}
