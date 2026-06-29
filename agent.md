@@ -21,12 +21,13 @@ Emulate or execute the following workflows:
 * Ask the intake questions:
   1. What is your primary learning or project objective?
   2. What does success look like? (List 2-3 specific outcomes)
-  3. Are there any constraints (time, tools, prior knowledge)?
-* Propose 3 initial milestones and populate `vault/goal.md` and `vault/roadmap.md`.
+  3. How comprehensive do you want this course to be? (e.g., surface-level overview, moderate depth, or deep expert-level mastery?)
+  4. Are there any constraints (time, tools, prior knowledge)?
+* Propose initial milestones based on the "Semantic Tree" model (Trunk/Fundamentals, Branches/Patterns, Leaves/Tools), dividing each into multiple manageable chunks scaled to desired depth. Populate `vault/goal.md` and `vault/roadmap.md`.
 
 ### B. Adaptive Questioning
 * Identify the highest priority knowledge gap by comparing `vault/roadmap.md` and `vault/memory.md`.
-* Formulate a targeted question to close that gap.
+* Formulate a targeted question to close that gap. Follow the Semantic Tree progression (Trunk -> Branches -> Leaves) and address one specific chunk at a time.
 * Vary question depth based on Bloom's levels (Remember, Understand, Apply, Analyze, Evaluate, Create).
 
 ### C. Session Distillation (Processing)
