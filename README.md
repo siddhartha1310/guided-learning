@@ -2,7 +2,7 @@
 
 Guided Learning is a multi-platform AI-guided learning system that transforms your workspace into an adaptive learning environment. It tracks your progress, identifies knowledge gaps, and evolves a persistent knowledge vault using frameworks like **Gap Analysis** and **Bloom's Taxonomy**.
 
-It is compatible with major AI coding assistants: **Gemini CLI**, **Claude Code**, **OpenCode**, and **Codex / GitHub Copilot**.
+It is compatible with major AI coding assistants: **Gemini CLI**, **Antigravity CLI (`agy`)**, **Claude Code**, **OpenCode**, and **Codex / GitHub Copilot**.
 
 ## ✨ Features
 - **Adaptive Questioning**: Automatically detects what you don't know and asks the "One Best Next Question."
@@ -16,9 +16,10 @@ Guided Learning can be set up in a few simple steps depending on your preferred 
 
 See the **[INSTALL.md](INSTALL.md)** file for detailed instructions on:
 1. **Gemini CLI**: Installing as a native skill.
-2. **Claude Code**: Configuring with `CLAUDE.md`.
-3. **OpenCode**: Configuring with `agent.md`.
-4. **Codex / GitHub Copilot**: Configuring with `.github/copilot-instructions.md`.
+2. **Antigravity CLI (`agy`)**: Global skill or local rules setup.
+3. **Claude Code**: Configuring with `CLAUDE.md`.
+4. **OpenCode**: Configuring with `agent.md`.
+5. **Codex / GitHub Copilot**: Configuring with `.github/copilot-instructions.md`.
 
 ## 🚀 Getting Started
 

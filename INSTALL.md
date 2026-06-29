@@ -24,7 +24,26 @@ Once installed, navigate to any empty folder where you want to start learning an
 
 ---
 
-## 2. Claude Code Setup
+## 2. Antigravity CLI (`agy`) Setup
+
+For the Antigravity CLI, you can load Guided Learning either as a global skill or workspace-specific configuration:
+
+### Option A: Global Skill Installation
+1. Locate your global Antigravity config directory (usually `~/.gemini/config/` or `C:\Users\<username>\.gemini\config\`).
+2. Create a subfolder: `skills/guided-learning/`.
+3. Copy **[SKILL.md](SKILL.md)**, **[references/](references/)**, and **[scripts/](scripts/)** from this repository into that folder.
+4. Run `agy` and type `/skills` to verify it is loaded.
+
+### Option B: Workspace-Specific Rules Setup
+1. Create a folder for your learning project.
+2. Create a `.agents/` folder in the root of your project.
+3. Copy **[AGENTS.md](AGENTS.md)** from this repository and save it as `.agents/AGENTS.md`.
+4. Copy the **[vault/](vault/)** template folder into your project root.
+5. Start `agy` in your project folder, and the agent will automatically read the rules to guide your learning.
+
+---
+
+## 3. Claude Code Setup
 
 Claude Code automatically picks up workspace rules from a `CLAUDE.md` file in the root of your project:
 
@@ -36,7 +55,7 @@ Claude Code automatically picks up workspace rules from a `CLAUDE.md` file in th
 
 ---
 
-## 3. OpenCode Setup
+## 4. OpenCode Setup
 
 OpenCode reads workspace guidelines from `agent.md` in your project root:
 
@@ -47,7 +66,7 @@ OpenCode reads workspace guidelines from `agent.md` in your project root:
 
 ---
 
-## 4. Codex / GitHub Copilot Setup
+## 5. Codex / GitHub Copilot Setup
 
 For Codex and GitHub Copilot Chat, repository-wide rules are loaded from `.github/copilot-instructions.md`:
 
