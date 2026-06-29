@@ -1,0 +1,6 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "guided-learning",
+  "version": "0.1.0",
+  "description": "Guided learning system for knowledge retention and roadmap evolution."
+}
