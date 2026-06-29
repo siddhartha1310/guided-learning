@@ -26,7 +26,8 @@ Emulate or execute the following workflows:
 * Propose initial milestones based on the "Semantic Tree" model (Trunk/Fundamentals, Branches/Patterns, Leaves/Tools), dividing each into multiple manageable chunks scaled to desired depth. Populate `vault/goal.md` and `vault/roadmap.md`.
 
 ### B. Adaptive Questioning
-* Identify the highest priority knowledge gap by comparing `vault/roadmap.md` and `vault/memory.md`.
+* Evaluate the user's previous answer. If they have not fully understood the concept, DO NOT move on. Rephrase the question, provide a hint, or break it down further.
+* If understanding is verified, identify the highest priority knowledge gap by comparing `vault/roadmap.md` and `vault/memory.md`.
 * Formulate a targeted question to close that gap. Follow the Semantic Tree progression (Trunk -> Branches -> Leaves) and address one specific chunk at a time.
 * Vary question depth based on Bloom's levels (Remember, Understand, Apply, Analyze, Evaluate, Create).
 
